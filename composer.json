@@ -20,6 +20,7 @@
         "axllent/silverstripe-version-truncator": "^2.0",
         "dnadesign/silverstripe-elemental-userforms": "^3.0",
         "dynamic/silverstripe-base-site": "^4.0",
+        "dynamic/silverstripe-elemental-blocks": "^3.0",
         "silverstripe-elemental-blocks": "^3.0",
         "fractas/elemental-stylings": "dev-refactor/elemental4",
         "quinninteractive/silverstripe-seo": "^1.0",
