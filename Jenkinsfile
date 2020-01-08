@@ -12,20 +12,13 @@ pipeline {
 
     stage('PHPUnit') {
       steps {
-        sh 'vendor/bin/phpunit --coverage-clover=build/logs/clover.xml --log-junit=build/logs/junit.xml --coverage-xml=build/logs/coverage'
+        sh 'vendor/bin/phpunit --log-junit=build/logs/junit.xml --coverage-xml=build/logs/coverage'
       }
-    }
-
-	stage("Publish Clover") {
-      steps {
-        step([$class: 'CloverPublisher', cloverReportDir: 'build/logs', cloverReportFileName: 'clover.xml'])
-      }
-
     }
 
 	stage('Checkstyle Report') {
       steps {
-        sh 'vendor/bin/phpcs --report=checkstyle --report-file=build/logs/checkstyle.xml --standard=phpcs.xml.dist --extensions=php,inc --ignore=autoload.php --ignore=vendor/ src/ tests/ || exit 0'
+        sh 'vendor/bin/phpcs --report=checkstyle --report-file=build/logs/checkstyle.xml --standard=phpcs.xml.dist --extensions=php,inc --ignore=autoload.php --ignore=vendor/ src/ tests/'
 	  }
     }
 
@@ -85,7 +78,6 @@ pipeline {
 	    junit 'build/logs/*.xml'
 	    recordIssues enabledForFailure: true, tool: checkStyle(pattern: '**/logs/checkstyle.xml')
 		recordIssues enabledForFailure: true, tool: cpd(pattern: '**/logs/pmd-cpd.xml')
-//		recordIssues enabledForFailure: true, tool: pmd(pattern: '**/logs/pmd.xml')
 	  }
   }
 }
