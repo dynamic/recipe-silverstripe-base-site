@@ -10,13 +10,13 @@ Axllent\CMSTweaks\MetadataTab:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - Dynamic\BaseRecipe\Extension\CmsDesignExtension
+    - Dynamic\Base\Extension\CmsDesignExtension
 
 Page:
   extensions:
     - Vulcan\Seo\Extensions\PageHealthExtension
     - Vulcan\Seo\Extensions\PageSeoExtension
-    - Dynamic\BaseRecipe\Extension\SeoExtension
+    - Dynamic\Base\Extension\SeoExtension
 
 Dynamic\Base\Page\HomePage:
   extensions:
@@ -33,4 +33,4 @@ Dynamic\Base\Page\CampaignLandingPage:
 SilverStripe\Blog\Model\BlogPost:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
-    - Dynamic\Base\ORM\BlogPostDataExtension
+    - Dynamic\Base\Extension\BlogPostDataExtension
