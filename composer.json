@@ -1,5 +1,5 @@
 {
-    "name": "dynamic/recipe-sliverstripe-base-site",
+    "name": "dynamic/recipe-silverstripe-base-site",
     "description": "A kitchen sink install of SilverStripe Base Site.",
     "type": "silverstripe-recipe",
     "keywords": [
