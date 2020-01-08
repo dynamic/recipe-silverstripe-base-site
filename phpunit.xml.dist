@@ -1,8 +1,7 @@
 <phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
-    <testsuite name="recipe-base-site">
-        <directory>tests</directory>
+    <testsuite name="dynamic/recipe-silverstripe-base-site">
+        <directory>tests/</directory>
     </testsuite>
-
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src/</directory>

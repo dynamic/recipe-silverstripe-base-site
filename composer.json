@@ -26,7 +26,7 @@
         "ryanpotter/silverstripe-cms-theme": "^3.4",
         "silverstripe/elemental-bannerblock": "^2.0",
         "silverstripe/recaptcha": "^3.0",
-        "silverstripe/recipe-cms": "^4.0",
+        "silverstripe/recipe-cms": "4.4.0",
         "silverstripe/redirectedurls": "^2.0",
         "silverstripe/securityreport": "^2.0",
         "silverstripe/spamprotection": "^3.0",
