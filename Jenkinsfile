@@ -18,7 +18,7 @@ pipeline {
 
 	stage('Checkstyle Report') {
       steps {
-        sh 'vendor/bin/phpcs --report=checkstyle --report-file=build/logs/checkstyle.xml --standard=phpcs.xml.dist --extensions=php,inc --ignore=autoload.php vendor/dynamic/silverstripe-base-site/src/'
+        sh 'vendor/bin/phpcs --report=checkstyle --report-file=build/logs/checkstyle.xml --standard=phpcs.xml.dist --extensions=php,inc --ignore=autoload.php --ignore=vendor/ src/ tests/'
 	  }
     }
 
@@ -30,20 +30,20 @@ pipeline {
 
     stage('CPD Report') {
 	  steps {
-	    sh 'vendor/bin/phpcpd --log-pmd build/logs/pmd-cpd.xml  vendor/dynamic/silverstripe-base-site/src/ vendor/dynamic/silverstripe-base-site/tests/ || exit 0'
+	    sh 'vendor/bin/phpcpd --log-pmd build/logs/pmd-cpd.xml --exclude vendor src/ tests/ || exit 0'
 	  }
     }
 
     stage('Lines of Code') {
 	  steps {
-	    sh 'vendor/bin/phploc --count-tests --log-csv build/logs/phploc.csv --log-xml build/logs/phploc.xml vendor/dynamic/silverstripe-base-site/src/ vendor/dynamic/silverstripe-base-site/tests/'
+	    sh 'vendor/bin/phploc --count-tests --exclude vendor/ --log-csv build/logs/phploc.csv --log-xml build/logs/phploc.xml src/ tests/'
 	  }
     }
 
     stage('Software metrics') {
 	  steps {
 	    sh 'mkdir build/pdepend'
-	    sh 'vendor/bin/pdepend --jdepend-xml=build/logs/jdepend.xml --jdepend-chart=build/pdepend/dependencies.svg --overview-pyramid=build/pdepend/overview-pyramid.svg --ignore=vendor vendor/dynamic/silverstripe-base-site/src'
+	    sh 'vendor/bin/pdepend --jdepend-xml=build/logs/jdepend.xml --jdepend-chart=build/pdepend/dependencies.svg --overview-pyramid=build/pdepend/overview-pyramid.svg --ignore=vendor src'
 	  }
     }
 
