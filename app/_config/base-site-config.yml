@@ -1,0 +1,36 @@
+---
+name: base-site-config
+---
+Axllent\CMSTweaks\MetadataTab:
+  use_tab: true
+  tab_title: 'SEO'
+  tab_to_right: true
+  page_name_title: 'Page Title'
+  move_title_to_advanced: false
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - Dynamic\BaseRecipe\Extension\CMSDesign
+
+Page:
+  extensions:
+    - Vulcan\Seo\Extensions\PageHealthExtension
+    - Vulcan\Seo\Extensions\PageSeoExtension
+    - Dynamic\BaseRecipe\Extension\SeoExtension
+
+Dynamic\Base\Page\HomePage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+
+Dynamic\Base\Page\BlockPage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+
+Dynamic\Base\Page\CampaignLandingPage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+
+SilverStripe\Blog\Model\BlogPost:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+    - Dynamic\Base\ORM\BlogPostDataExtension
