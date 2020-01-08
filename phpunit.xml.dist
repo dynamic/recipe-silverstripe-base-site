@@ -5,9 +5,9 @@
     </testsuite>
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src/</directory>
+            <directory suffix=".php">vendor/dynamic/silverstripe-base-site/src/</directory>
             <exclude>
-                <directory suffix=".php">tests/</directory>
+                <directory suffix=".php">vendor/dynamic/silverstripe-base-site/tests/</directory>
             </exclude>
         </whitelist>
     </filter>
