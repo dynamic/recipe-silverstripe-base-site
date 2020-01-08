@@ -10,7 +10,7 @@ Axllent\CMSTweaks\MetadataTab:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - Dynamic\BaseRecipe\Extension\CMSDesign
+    - Dynamic\BaseRecipe\Extension\CmsDesignExtension
 
 Page:
   extensions:
