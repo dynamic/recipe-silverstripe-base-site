@@ -8,7 +8,7 @@ use SilverStripe\Forms\FieldList;
 class CmsDesignExtensionTest extends SapphireTest
 {
     /**
-     * 
+     *
      */
     public function testUpdateCMSFields()
     {

@@ -62,7 +62,8 @@ class SeoExtension extends DataExtension
                     ->setAttribute(
                         'placeholder',
                         $this->getOwner()->MetaDescription ?:
-                            $this->getOwner()->dbObject('Content')->LimitCharacters(297))
+                        $this->getOwner()->dbObject('Content')->LimitCharacters(297)
+                    )
                     ->setRightTitle('If blank, inherits meta description if it exists or gets the first 297
                         characters from content')
                     ->setTargetLength(200, 160, 320),
@@ -79,7 +80,8 @@ class SeoExtension extends DataExtension
                     ->setAttribute(
                         'placeholder',
                         $this->getOwner()->MetaDescription ?:
-                            $this->getOwner()->dbObject('Content')->LimitCharacters(297))
+                        $this->getOwner()->dbObject('Content')->LimitCharacters(297)
+                    )
                     ->setRightTitle('If blank, inherits meta description if it exists or gets the first 297
                         characters from content')
                     ->setTargetLength(200, 160, 320),
