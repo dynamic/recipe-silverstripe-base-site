@@ -8,9 +8,15 @@ Axllent\CMSTweaks\MetadataTab:
   page_name_title: 'Page Title'
   move_title_to_advanced: false
 
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Dynamic\Base\Extension\CompanyDataExtension
+    - Dynamic\Base\Extension\IntegrationsDataExtension
+    - Dynamic\Base\Extension\TemplateDataExtension
+
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - Dynamic\Base\Extension\CmsDesignExtension
+    - Dynamic\Base\Extension\CmsDesignDataExtension
 
 Page:
   extensions:
@@ -34,3 +40,7 @@ SilverStripe\Blog\Model\BlogPost:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
     - Dynamic\Base\Extension\BlogPostDataExtension
+
+Dynamic\Base\Model\CompanyAddress:
+  extensions:
+    - Dynamic\SilverStripeGeocoder\AddressDataExtension
