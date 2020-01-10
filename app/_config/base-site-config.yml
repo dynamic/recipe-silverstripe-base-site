@@ -26,23 +26,23 @@ Page:
 
 Dynamic\Base\Page\HomePage:
   extensions:
-    - Dynamic\CoreTools\ORM\HeaderImageDataExtension
+    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
 
 Dynamic\Base\Page\BlockPage:
   extensions:
-    - Dynamic\CoreTools\ORM\HeaderImageDataExtension
+    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
 
 Dynamic\Base\Page\CampaignLandingPage:
   extensions:
-    - Dynamic\CoreTools\ORM\HeaderImageDataExtension
+    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
 
 SilverStripe\Blog\Model\BlogPost:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
-    - Dynamic\CoreTools\ORM\PreviewExtension
+    - Dynamic\SiteTools\Extension\PreviewExtension
     - Dynamic\Base\Extension\BlogPostDataExtension
 
 Dynamic\Base\Model\CompanyAddress:
@@ -51,8 +51,8 @@ Dynamic\Base\Model\CompanyAddress:
 
 SilverStripe\UserForms\Model\EditableFormField:
   extensions:
-    - Dynamic\CoreTools\ORM\ContentAuthorPermissionManager
+    - Dynamic\SiteTools\Extension\DataobjectPermissionExtension
 
 SilverStripe\UserForms\Model\EditableCustomRule:
   extensions:
-    - Dynamic\CoreTools\ORM\ContentAuthorPermissionManager
+    - Dynamic\SiteTools\Extension\DataobjectPermissionExtension
