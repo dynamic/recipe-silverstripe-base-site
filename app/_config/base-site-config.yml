@@ -1,5 +1,7 @@
 ---
 name: base-site-config
+After:
+  - '*'
 ---
 Axllent\CMSTweaks\MetadataTab:
   use_tab: true
