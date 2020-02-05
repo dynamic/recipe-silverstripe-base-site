@@ -15,6 +15,7 @@ SilverStripe\SiteConfig\SiteConfig:
     - Dynamic\Base\Extension\CompanyDataExtension
     - Dynamic\Base\Extension\IntegrationsDataExtension
     - Dynamic\Base\Extension\TemplateDataExtension
+    - Dynamic\SiteTools\Extension\ReviewContentDataExtension
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
