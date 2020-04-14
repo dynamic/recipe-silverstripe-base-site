@@ -51,6 +51,7 @@ SilverStripe\Blog\Model\BlogPost:
 Dynamic\Base\Model\CompanyAddress:
   extensions:
     - Dynamic\SilverStripeGeocoder\AddressDataExtension
+    - Dynamic\SiteTools\Extension\ContactDataExtension
 
 SilverStripe\UserForms\Model\EditableFormField:
   extensions:
