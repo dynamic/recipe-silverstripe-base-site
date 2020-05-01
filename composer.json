@@ -43,10 +43,7 @@
         }
     },
     "extra": {
-        "project-files": ["app/_config/*"],
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
+        "project-files": ["app/_config/*"]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
