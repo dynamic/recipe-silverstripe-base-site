@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/1.1.0) (2020-05-01)
+
+[Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.0.0...1.1.0)
+
+**Merged pull requests:**
+
+- REFACTOR replace elemental-blocks with elemental-base-site [\#17](https://github.com/dynamic/recipe-silverstripe-base-site/pull/17) ([jsirish](https://github.com/jsirish))
+
 ## [1.0.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/1.0.0) (2020-05-01)
 
 [Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/5ee8104401ec46281f5c940477aad4796d464ac8...1.0.0)
