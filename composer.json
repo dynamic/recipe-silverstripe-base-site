@@ -28,7 +28,8 @@
         "silverstripe/redirectedurls": "^2.0",
         "silverstripe/securityreport": "^2.0",
         "silverstripe/spamprotection": "^3.0",
-        "silverstripe/widgets": "^2.0"
+        "silverstripe/widgets": "^2.0",
+        "tractorcow/silverstripe-robots": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"

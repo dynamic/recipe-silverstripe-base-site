@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/dynamic/recipe-silverstripe-base-site/tree/1.1.1) (2020-08-17)
+
+[Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.1.0...1.1.1)
+
+**Merged pull requests:**
+
+- FEATURE silverstripe-robots [\#19](https://github.com/dynamic/recipe-silverstripe-base-site/pull/19) ([jsirish](https://github.com/jsirish))
+
 ## [1.1.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/1.1.0) (2020-05-01)
 
 [Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.0.0...1.1.0)
