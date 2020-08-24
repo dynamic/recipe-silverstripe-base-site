@@ -3,13 +3,6 @@ name: base-site-config
 After:
   - '*'
 ---
-Axllent\CMSTweaks\MetadataTab:
-  use_tab: true
-  tab_title: 'SEO'
-  tab_to_right: true
-  page_name_title: 'Page Title'
-  move_title_to_advanced: false
-
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - Dynamic\Base\Extension\CompanyDataExtension
@@ -60,3 +53,28 @@ SilverStripe\UserForms\Model\EditableFormField:
 SilverStripe\UserForms\Model\EditableCustomRule:
   extensions:
     - Dynamic\SiteTools\Extension\DataobjectPermissionExtension
+
+Axllent\CMSTweaks\MetadataTab:
+  use_tab: true
+  tab_title: 'SEO'
+  tab_to_right: true
+  page_name_title: 'Page Title'
+  move_title_to_advanced: false
+
+Axllent\CMSTweaks\CMSTweaks:
+  invalid_elements: ""
+  extended_valid_elements: "img[class|src|alt|title|hspace|vspace|width|height|align|name|usemap|data*],iframe[src|name|width|height|align|frameborder|marginwidth|marginheight|scrolling],object[width|height|data|type],param[name|value],map[class|name|id],area[shape|coords|href|target|alt],video[loop|autoplay|muted|playsinline|controls],source[src|type]"
+
+SilverStripe\View\SSViewer:
+  rewrite_hash_links: false
+
+SilverStripe\UserForms\Model\UserDefinedForm:
+  block_default_userforms_js: true
+  block_default_userforms_css: true
+
+DNADesign\ElementalUserForms\Model\ElementForm:
+  block_default_userforms_js: true
+  block_default_userforms_css: true
+
+DNADesign\Elemental\Controllers\ElementController:
+  include_default_styles: false
