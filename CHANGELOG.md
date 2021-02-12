@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.0-alpha1](https://github.com/dynamic/recipe-silverstripe-base-site/tree/2.0.0-alpha1) (2021-02-12)
+
+[Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.1.1...2.0.0-alpha1)
+
+**Closed issues:**
+
+- FEATURE include Robots.txt module in recipe [\#21](https://github.com/dynamic/recipe-silverstripe-base-site/issues/21)
+
+**Merged pull requests:**
+
+- Remove ElementForm, add template debugging [\#26](https://github.com/dynamic/recipe-silverstripe-base-site/pull/26) ([jsirish](https://github.com/jsirish))
+- CI GitHub Workflow [\#25](https://github.com/dynamic/recipe-silverstripe-base-site/pull/25) ([jsirish](https://github.com/jsirish))
+- REFACTOR remove Silverstripe SEO module [\#24](https://github.com/dynamic/recipe-silverstripe-base-site/pull/24) ([jsirish](https://github.com/jsirish))
+
 ## [1.1.1](https://github.com/dynamic/recipe-silverstripe-base-site/tree/1.1.1) (2020-08-17)
 
 [Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.1.0...1.1.1)
