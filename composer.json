@@ -23,7 +23,6 @@
         "dynamic/silverstripe-base-site": "^4.0",
         "dynamic/recipe-silverstripe-elemental-base-site": "^1.0",
         "fractas/elemental-stylings": "^1.0@RC",
-        "quinninteractive/silverstripe-seo": "^1.0",
         "silverstripe/elemental-bannerblock": "^2.0",
         "silverstripe/recaptcha": "^3.0",
         "silverstripe/redirectedurls": "^2.0",

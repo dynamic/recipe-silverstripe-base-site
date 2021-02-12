@@ -21,12 +21,6 @@ SilverStripe\CMS\Model\SiteTree:
   extensions:
     - Dynamic\Base\Extension\CmsDesignDataExtension
 
-Page:
-  extensions:
-    - QuinnInteractive\Seo\Extensions\PageHealthExtension
-    - QuinnInteractive\Seo\Extensions\PageSeoExtension
-    - Dynamic\Base\Extension\SeoExtension
-
 Dynamic\Base\Page\HomePage:
   extensions:
     - Dynamic\SiteTools\Extension\HeaderImageExtension
