@@ -19,7 +19,6 @@
         "axllent/silverstripe-cms-tweaks": "^2.0",
         "axllent/silverstripe-bootstrap-forms": "^2.0",
         "axllent/silverstripe-version-truncator": "^2.0",
-        "dnadesign/silverstripe-elemental-userforms": "^3.0",
         "dynamic/silverstripe-base-site": "^4.0",
         "dynamic/recipe-silverstripe-elemental-base-site": "^1.0",
         "fractas/elemental-stylings": "^1.0@RC",

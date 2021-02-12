@@ -54,3 +54,10 @@ SilverStripe\UserForms\Model\EditableFormField:
 SilverStripe\UserForms\Model\EditableCustomRule:
   extensions:
     - Dynamic\SiteTools\Extension\DataobjectPermissionExtension
+
+---
+Only:
+  environment: 'dev'
+---
+SilverStripe\View\SSViewer:
+  source_file_comments: true
