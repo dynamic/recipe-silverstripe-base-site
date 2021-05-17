@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=7.0.0",
         "axllent/silverstripe-cms-tweaks": "^2.0",
         "axllent/silverstripe-bootstrap-forms": "^2.0",
         "axllent/silverstripe-version-truncator": "^2.0",
