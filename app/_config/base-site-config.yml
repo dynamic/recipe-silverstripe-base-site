@@ -41,7 +41,6 @@ SilverStripe\Blog\Model\BlogPost:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
     - Dynamic\SiteTools\Extension\PreviewExtension
-    - Dynamic\Base\Extension\BlogPostDataExtension
 
 Dynamic\Base\Model\CompanyAddress:
   extensions:
@@ -56,9 +55,3 @@ SilverStripe\UserForms\Model\EditableCustomRule:
   extensions:
     - Dynamic\SiteTools\Extension\DataobjectPermissionExtension
 
----
-Only:
-  environment: 'dev'
----
-SilverStripe\View\SSViewer:
-  source_file_comments: true
