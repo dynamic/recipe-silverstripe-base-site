@@ -54,6 +54,9 @@
         "process-timeout": 600
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        },
         "project-files": [
             "app/_config/*"
         ]
