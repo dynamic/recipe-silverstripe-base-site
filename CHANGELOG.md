@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/4.0.0) (2023-08-12)
+* REFACTOR Silverstripe 5 compatibility by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/34
+
+**Full Changelog**: https://github.com/dynamic/recipe-silverstripe-base-site/compare/3.0.0...4.0.0
+
+## [3.0.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/3.0.0) (2023-01-13)
+* Ci/workflow updates by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/32
+* COMPOSER update requirements by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/31
+* REFACTOR remove BlogPost DE, SSViewer source file comments by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/33
+
+**Full Changelog**: https://github.com/dynamic/recipe-silverstripe-base-site/compare/2.0.0...3.0.0
+
 ## [2.0.0-alpha1](https://github.com/dynamic/recipe-silverstripe-base-site/tree/2.0.0-alpha1) (2021-02-12)
 
 [Full Changelog](https://github.com/dynamic/recipe-silverstripe-base-site/compare/1.1.1...2.0.0-alpha1)
