@@ -20,12 +20,12 @@
         "dynamic/recipe-silverstripe-elemental-base-site": "^3",
         "dynamic/silverstripe-base-site": "^6",
         "silverstripe/blog": "^4",
-        "undefinedoffset/silverstripe-nocaptcha": "^2",
         "silverstripe/redirectedurls": "^3",
         "silverstripe/securityreport": "^3",
         "silverstripe/spamprotection": "^4",
         "silverstripe/userforms": "^6",
-        "silverstripe/widgets": "^3"
+        "silverstripe/widgets": "^3",
+        "undefinedoffset/silverstripe-nocaptcha": "^2"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^3"

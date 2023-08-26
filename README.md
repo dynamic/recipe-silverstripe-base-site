@@ -4,21 +4,17 @@ Kitchen sink recipe to install [dynamic/silverstripe-base-site](https://github.c
 
 ## Requirements
 
-* SilverStripe ^4.3
-* axllent/silverstripe-cms-tweaks ^2.0
-* axllent/silverstripe-bootstrap-forms ^2.0
-* axllent/silverstripe-version-truncator ^2.0
-* dnadesign/silverstripe-elemental-userforms ^3.0
-* dynamic/silverstripe-base-site ^4.0
-* dynamic/silverstripe-elemental-blocks ^3.0
-* fractas/elemental-stylings ^1.0@RC
-* quinninteractive/silverstripe-seo": ^1.0
-* silverstripe/elemental-bannerblock ^2.0
-* silverstripe/recaptcha ^3.0
-* silverstripe/redirectedurls ^2.0
-* silverstripe/securityreport ^2.0
-* silverstripe/spamprotection ^3.0
+* SilverStripe ^5
+* axllent/silverstripe-version-truncator ^3
+* dynamic/recipe-silverstripe-elemental-base-site ^3
+* dynamic/silverstripe-base-site ^6
+* silverstripe/blog ^4
+* silverstripe/redirectedurls ^3
+* silverstripe/securityreport ^3
+* silverstripe/spamprotection ^4
+* silverstripe/userforms ^6
 * silverstripe/widgets ^2.0
+* undefinedoffset/silverstripe-nocaptcha ^2
 
 ## Installation
 
