@@ -17,7 +17,6 @@
     "require": {
         "php": "^8.1",
         "axllent/silverstripe-version-truncator": "^3",
-        "dynamic/recipe-silverstripe-elemental-base-site": "^3",
         "dynamic/silverstripe-base-site": "^6",
         "silverstripe/blog": "^4",
         "silverstripe/redirectedurls": "^3",
