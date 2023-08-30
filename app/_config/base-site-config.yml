@@ -10,6 +10,7 @@ SilverStripe\SiteConfig\SiteConfig:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
+    - Dynamic\Base\Extension\CmsDesignDataExtension
     - Dynamic\Base\Extension\SeoExtension
 
 Dynamic\Base\Page\HomePage:
