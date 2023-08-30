@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.0.1](https://github.com/dynamic/recipe-silverstripe-base-site/tree/4.0.1) (2023-08-30)
+* REFACTOR Config adjustments by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/35
+* REFACTOR remove recipe elemental base site by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/36
+* FEATURE innoweb seo and analytics by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/37
+* REFACTOR Remove CompanyDataExtension by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/38
+* REFACTOR remove IntegrationsDataExtension by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/39
+
+**Full Changelog**: https://github.com/dynamic/recipe-silverstripe-base-site/compare/4.0.0...4.0.1
+
 ## [4.0.0](https://github.com/dynamic/recipe-silverstripe-base-site/tree/4.0.0) (2023-08-12)
 * REFACTOR Silverstripe 5 compatibility by @jsirish in https://github.com/dynamic/recipe-silverstripe-base-site/pull/34
 
