@@ -3,13 +3,6 @@ name: base-site-config
 After:
   - '*'
 ---
-Axllent\CMSTweaks\MetadataTab:
-  use_tab: true
-  tab_title: 'SEO'
-  tab_to_right: true
-  page_name_title: 'Page Title'
-  move_title_to_advanced: false
-
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - Dynamic\Base\Extension\CompanyDataExtension
@@ -19,28 +12,31 @@ SilverStripe\SiteConfig\SiteConfig:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - Dynamic\Base\Extension\CmsDesignDataExtension
     - Dynamic\Base\Extension\SeoExtension
 
 Dynamic\Base\Page\HomePage:
   extensions:
     - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+  elemental_keep_content_field: true
 
 Dynamic\Base\Page\BlockPage:
   extensions:
     - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+  elemental_keep_content_field: true
 
 Dynamic\Base\Page\CampaignLandingPage:
   extensions:
     - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+  elemental_keep_content_field: true
 
 SilverStripe\Blog\Model\BlogPost:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
     - Dynamic\SiteTools\Extension\PreviewExtension
+  elemental_keep_content_field: true
 
 Dynamic\Base\Model\CompanyAddress:
   extensions:
