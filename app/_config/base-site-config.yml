@@ -10,6 +10,7 @@ SilverStripe\SiteConfig\SiteConfig:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
+    - Dynamic\Base\Extension\CmsDesignDataExtension
     - Dynamic\Base\Extension\SeoExtension
 
 Dynamic\Base\Page\HomePage:
@@ -35,11 +36,6 @@ SilverStripe\Blog\Model\BlogPost:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
     - Dynamic\SiteTools\Extension\PreviewExtension
   elemental_keep_content_field: true
-
-Dynamic\Base\Model\CompanyAddress:
-  extensions:
-    - Dynamic\SilverStripeGeocoder\AddressDataExtension
-    - Dynamic\SiteTools\Extension\ContactDataExtension
 
 SilverStripe\UserForms\Model\EditableFormField:
   extensions:
