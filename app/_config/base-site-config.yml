@@ -15,20 +15,20 @@ SilverStripe\CMS\Model\SiteTree:
 
 Dynamic\Base\Page\HomePage:
   extensions:
-    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+    - Dynamic\Carousel\Extension\CarouselPageExtension
   elemental_keep_content_field: true
 
 Dynamic\Base\Page\BlockPage:
   extensions:
-    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+    - Dynamic\Carousel\Extension\CarouselPageExtension
   elemental_keep_content_field: true
 
 Dynamic\Base\Page\CampaignLandingPage:
   extensions:
-    - Dynamic\SiteTools\Extension\HeaderImageExtension
     - DNADesign\Elemental\Extensions\ElementalPageExtension
+    - Dynamic\Carousel\Extension\CarouselPageExtension
   elemental_keep_content_field: true
 
 SilverStripe\Blog\Model\BlogPost:
