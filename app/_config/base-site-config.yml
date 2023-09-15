@@ -13,6 +13,14 @@ SilverStripe\CMS\Model\SiteTree:
     - Dynamic\Base\Extension\CmsDesignDataExtension
     - Dynamic\Base\Extension\SeoExtension
 
+Page:
+  defaults:
+    ShowSharingLinks: 1
+  disallowed_elements:
+    - 'Dynamic\Elements\Blog\Elements\ElementBlogOverview'
+    - 'Dynamic\Elements\Blog\Elements\ElementBlogPagination'
+    - 'Dynamic\Elements\Blog\Elements\ElementBlogWidgets'
+
 Dynamic\Base\Page\HomePage:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
