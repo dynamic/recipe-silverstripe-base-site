@@ -20,6 +20,7 @@
         "dynamic/silverstripe-base-site": "^6",
         "innoweb/silverstripe-googleanalytics": "^5.0",
         "innoweb/silverstripe-social-metadata": "^8.2",
+        "innoweb/silverstripe-social-share": "^4.0",
         "silverstripe/blog": "^4",
         "silverstripe/redirectedurls": "^3",
         "silverstripe/securityreport": "^3",
