@@ -27,8 +27,7 @@
         "silverstripe/securityreport": "^3",
         "silverstripe/spamprotection": "^4",
         "silverstripe/userforms": "^6",
-        "silverstripe/widgets": "^3",
-        "undefinedoffset/silverstripe-nocaptcha": "^2"
+        "silverstripe/widgets": "^3"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^3"
@@ -37,7 +36,8 @@
         "dynamic/recipe-silverstripe-elemental-base-site": "Content blocks commonly used with dynamic/silverstripe-base-site",
         "nswdpc/silverstripe-elemental-modeladmin": "Provides an administration area for managing all content blocks created in Silverstripe website",
         "nswdpc/silverstripe-thereisnouserform": "Hide/Remove 'User Defined Form' pages in the CMS when using silverstripe/userforms together with dnadesign/silverstripe-elemental-userforms",
-        "ryanpotter/silverstripe-cms-theme": "Allows for customizing colors, admin groups, and admin icons in the CMS"
+        "ryanpotter/silverstripe-cms-theme": "Allows for customizing colors, admin groups, and admin icons in the CMS",
+        "undefinedoffset/silverstripe-nocaptcha": "Adds Google reCAPTCHA to SilverStripe userforms"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
