@@ -1,0 +1,21 @@
+---
+name: base-site-cache-config
+---
+SilverStripe\SiteConfig\SiteConfig:
+  has_cache_key: true
+  global_cares:
+    - SilverStripe\CMS\Model\SiteTree
+  cares:
+    - UtilityLinks
+    - NavigationColumns
+    - SocialLinks
+
+Dynamic\Base\Model\NavigationColumn:
+  has_cache_key: true
+  cares:
+    - NavigationGroups
+
+Dynamic\Base\Model\NavigationGroup:
+  has_cache_key: true
+  cares:
+    - NavigationLinks
