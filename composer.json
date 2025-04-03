@@ -16,7 +16,6 @@
     ],
     "require": {
         "php": "^8.1",
-        "axllent/silverstripe-version-truncator": "^3",
         "dynamic/silverstripe-base-site": "^7",
         "dynamic/silverstripe-carousel": "^2.0",
         "innoweb/silverstripe-googleanalytics": "^5.0",
