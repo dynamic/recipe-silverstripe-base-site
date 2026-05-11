@@ -23,7 +23,6 @@
         "innoweb/silverstripe-social-share": "^5.0",
         "silverstripe/blog": "^5",
         "silverstripe/redirectedurls": "^4",
-        "silverstripe/securityreport": "^3",
         "silverstripe/spamprotection": "^5",
         "silverstripe/userforms": "^7"
     },
